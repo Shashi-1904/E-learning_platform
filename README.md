@@ -19,8 +19,8 @@ To get started with the project, follow these steps:
 3. Install dependencies:
 
 
-cd frontend && npm install
-cd backend && npm install
+`cd frontend && npm install`
+`cd backend && npm install`
 
 4. Set up MongoDB:
 - Install MongoDB if not already installed.
@@ -28,7 +28,7 @@ cd backend && npm install
 - Create a new database and configure the connection string in `server/config/default.json`.
 5. Start the server:
 
-cd backend && npm start
+`cd backend && npm start`
 
 6. Start the client:
 7. Open your web browser and visit `http://localhost:3000` to view the application.
