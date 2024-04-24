@@ -1,0 +1,285 @@
+.form-container {
+  max-width: 500px;
+  padding: 60px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.btn-primary {
+  width: 100%;
+}
+/* login.css */
+
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.alert {
+  margin-top: 20px;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 600px) {
+  .form-container {
+    max-width: 100%;
+  }
+}
+
+.alert-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  width: 300px;
+}
+
+.alert-success {
+  background-color: rgba(0, 255, 0, 0.8);
+  color: white;
+}
+
+.alert-danger {
+  background-color: rgba(255, 0, 0, 0.8);
+  color: white;
+}
+
+.close-icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+/* navbar.css */
+
+.navbar {
+  position: fixed; /* Fix the navbar position */
+  top: 0; /* Position it at the top of the viewport */
+  left: 0; /* Align it to the left */
+  width: 100%; /* Take up the full width of the viewport */
+  background-color: #ff7b00; /* Bootstrap primary color */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  color: white;
+  margin-right: 10px;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.profile {
+  position: relative;
+  cursor: pointer;
+}
+
+.profile-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 999;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#dropdown-item {
+  color: #d22020;
+  text-decoration: none;
+  display: block;
+   /* Increased padding for better spacing */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+}
+
+#dropdown-item:hover {
+  background-color: #9dbad6;
+  color: #fff; /* Changed color to white for better contrast */
+  border-radius: 5px; /* Rounded corners on hover */
+}
+
+
+
+#side{
+  height: 100vh;
+  width: 30vh;
+  margin: 0;
+  margin-top: 0px;
+  padding: 0em;
+  background-color: #f2f2f2;
+  position: fixed;
+  grid-area: sidebar;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+}
+#side ul li{
+  margin: 1em;
+  font-weight: bold;
+  list-style: none;
+  
+
+}
+#spa{
+  margin-left: 7px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 260px 1fr 1fr;
+  grid-template-areas: 'sidebar greet greet'
+  'sidebar card chart'
+  'sidebar card2 card2'
+  ;
+  column-gap: 0px;
+  width: 100%;
+  
+
+}
+.cards{
+  margin-top: 3em;
+  grid-area: card2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.custom-toast {
+  width: auto !important;
+  max-width: 100% !important;
+}
+
+
+.greet{
+  grid-area: greet;
+  margin-top: 1.5em;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+ 
+  background-color:  #f2f2f2;
+  padding: 10px;
+}
+.main-cards {
+  margin-top: 1em;
+  grid-area: card;
+  width: 50em;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 25px;
+  
+  
+}
+
+
+
+
+.charts{
+  height: 15em;
+  width: 15em;
+  grid-area: chart;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 3em;
+  
+  
+  
+
+  
+}
+.container.sidebar {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+ 
+  background-color:  #f2f2f2; /* Set background color for the sidebar */
+}
+
+.container.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.container.sidebar ul li {
+  padding: 1rem; /* Adjust padding to increase clickable area */
+}
+
+.container.sidebar ul li:hover {
+  background-color: #555;
+  cursor: pointer; /* Change background color on hover */
+}
+
+.container.sidebar ul li span {
+  margin-left: 1rem; /* Add space between icon and text */
+  color: #250d0d; /* Set text color */
+}
+
+.container.sidebar ul li i {
+  color: #1d0d0d; /* Set icon color */
+}
+
+
+
